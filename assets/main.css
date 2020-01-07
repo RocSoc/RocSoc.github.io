@@ -161,19 +161,6 @@ table td { border: 1px solid white; }
 
 .site-nav { line-height: 108px; }
 
-.banspc { margin-top: 520px; }
-
-.bttn { border-style: solid; border-width: 2px; padding: 6px; font-size: 48px; background-color: black; /* RGBa with 0.6 opacity */ background-color: rgba(0, 0, 0, 0.85); width: 200px; text-align: center; margin: 0 auto; }
-
-a:link.bttn { color: #B10000; }
-
-a:visited.bttn { color: #B10000; }
-
-/* Cover Image */
-.banner { text-align: center; vertical-align: middle; background: url("../assets/home-feature.jpg"); background-repeat: no-repeat; background-size: 2000px 860px; height: 860px; /*use @media for widths*/ }
-
-.banner .featureimg { width: 100%; max-width: 100%; }
-
 /** Syntax highlighting styles */
 .highlight { background: #fff; }
 
@@ -296,5 +283,42 @@ a:visited.bttn { color: #B10000; }
 .highlight .vi { color: #008080; }
 
 .highlight .il { color: #099; }
+
+.bttn { border-style: solid; border-width: 2px; padding: 6px; font-size: 48px; background-color: black; /* RGBa with 0.6 opacity */ background-color: rgba(0, 0, 0, 0.85); width: 200px; text-align: center; margin: 0 auto; }
+
+a:link.bttn { color: #B10000; }
+
+a:visited.bttn { color: #B10000; }
+
+a:hover.bttn { color: #fff; }
+
+.bttn_offset { margin-top: 520px; }
+
+.banner { text-align: center; vertical-align: middle; background: url("../assets/home-feature.jpg"); background-repeat: no-repeat; background-size: 2000px 914px; height: 913px; }
+
+/* //4k-2560 @media screen and (min-width: 2500px)  { .banner  { background-size: 4600px 2100px; height: 2100px; } .bttn_offset { margin-top: 1300px; //use o lower/hiugher } }*/
+@media screen and (min-width: 2500px) { .banner { background-position: center center; background-size: 2500px 1141px; height: 1141px; }
+  .bttn_offset { margin-top: 0px; } }
+
+@media screen and (max-width: 1920px) { .banner { background-size: 1920px 877px; height: 877px; }
+  .bttn_offset { margin-top: 560px; } }
+
+@media screen and (max-width: 1440px) { .banner { background-size: 1440px 658px; height: 658px; }
+  .bttn_offset { margin-top: 460px; } }
+
+@media screen and (max-width: 1024px) { .banner { background-size: 1024px 468px; height: 468px; }
+  .bttn_offset { margin-top: 320px; } }
+
+@media screen and (max-width: 768px) { .banner { background-size: 768px 351px; height: 351px; }
+  .bttn_offset { margin-top: 360px; } }
+
+@media screen and (max-width: 425px) { .banner { background-size: 425px 194px; height: 194px; }
+  .bttn_offset { margin-top: 210px; } }
+
+@media screen and (max-width: 320px) { .banner { background-size: 320px 146px; height: 146px; }
+  .bttn_offset { margin-top: 160px; } }
+
+/* Cover Image animation 1080*/
+/* .banner  { background: url('../assets/home-feature-long.png');   //background-size: 1920px 877px; //height: 877px; //5773 background-size: 5773px 877px; height: 877px; background-repeat: repeat-x; background-position: 0px 0px; animation: animatedBackground 29s linear infinite; } .bttn_offset { margin-top: 560px; //use o lower/hiugher } @keyframes animatedBackground  { from { background-position: 0 0; } to { background-position: -5773px 0; } } */
 
 /*# sourceMappingURL=main.css.map */
