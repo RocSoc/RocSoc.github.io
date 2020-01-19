@@ -312,6 +312,9 @@ a:hover.bttn { color: #fff; }
 @media screen and (max-width: 768px) { .banner { background: url("../assets/banner/banner768.jpg"); background-size: 768px 351px; height: 351px; }
   .bttn_offset { margin-top: 360px; } }
 
+@media screen and (max-width: 630px) { .bttn_offset { margin-top: 360px; }
+  .bttn { font-size: 28px; } }
+
 @media screen and (max-width: 425px) { .banner { background-size: 425px 194px; height: 194px; }
   .bttn_offset { margin-top: 210px; } }
 
