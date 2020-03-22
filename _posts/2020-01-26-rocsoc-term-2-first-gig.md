@@ -25,4 +25,4 @@ Facebook: Alaina Rhiannon Harrison
 Instagram: alaina.r.harrison
 Twitter: @AlainaRhiannon
 
-![](/assets/Posters/2020GIG1.png)
+![](/assets/Posters/2020GIG1.PNG)
