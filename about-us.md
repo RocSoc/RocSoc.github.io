@@ -26,7 +26,7 @@ Official membership of the society for a year will set you back £5 when you pay
 * Tom Kaye and Ben Myles
 
 ## Web Developers
-*   Luke Scott
+*   [Luke Scott](www.scottlr.com)
 *   Joshua Murphy
 
 ## Yorkshire Taps/Yorkshire House
