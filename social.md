@@ -8,6 +8,8 @@ permalink: social
 
 <p><a href="https://discord.gg/yKwXq3N" target="_blank">Discord</a></p>
 
+<p><a href="https://www.instagram.com/lurocsoc/" target="_blank">Instagram</a></p>
+
 <p><a href="https://twitter.com/RocSoc" target="_blank">Twitter</a></p>
 
 <p><a href="mailto:rocsoc@lancaster.ac.uk" target="_blank">Email</a></p>
