@@ -6,7 +6,7 @@ permalink: social
 
 <p><a href="https://www.facebook.com/pg/LURocSoc" target="_blank">Facebook</a></p>
 
-<p><a href="https://discord.gg/yKwXq3N" target="_blank">Discord</a></p>
+<p>Discord(Message us on FB)</p>
 
 <p><a href="https://www.instagram.com/lurocsoc/" target="_blank">Instagram</a></p>
 

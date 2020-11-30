@@ -34,8 +34,6 @@ H O W E V E R:
 
 Please note that Government and University Restrictions are subject to change ( but you already knew that 🙃 )
 
-[Discord](https://discord.gg/yKwXq3N)
-
 ### [Our Constitution](/Constitution)
 
 ## EXEC 2020-2021
