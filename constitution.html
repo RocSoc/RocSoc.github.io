@@ -19,6 +19,8 @@
     <link rel="stylesheet" href="./assets/main.css">
     <link rel="shortcut icon" type="image/png" href="./assets/logos/favicon.png"><!-- fix path per page later-->
     <!--<link type="application/atom+xml" rel="alternate" href="https://rocsoc.org/feed.xml" title="RocSoc.org">-->
+    <script src="./assets/script.js"></script>
+
 </head>
 
 <body>
@@ -26,11 +28,13 @@
         <div class="wrapper">
             <a href="https://rocsoc.org/"><img src="./assets/logos/logofull.png" width="192"></a>
             <nav class="main-nav">
+                <a class="menu-bttn"onclick="menuFunc()" href="javascript:void(0);">Menu</a>
+                <div id="navlinks" class="hide">
                 <a href="./about">About Us</a>
                 <a href="./news">News</a>
                 <a href="./social">Social Media</a>
                 <a class="joinus-bttn" href="./join">Join Us</a>
-
+            </div>
             </nav>
         </div>
     </div>

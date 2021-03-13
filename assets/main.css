@@ -1,6 +1,7 @@
 html
 {
     background-color: #111111;
+    overflow-y: scroll;
 }
 body{
     margin: 0;
@@ -54,6 +55,16 @@ ul{padding: 0;}
     background-color:#800;
      border-radius: 25px;
 }
+.menu-bttn
+{
+    background-color:#800;
+     border-radius: 25px;
+     margin-top:16px;
+     margin-bottom:16px!important;
+
+     display: none;
+ }
+
 @media screen and (max-width: 700px) {
     .main-nav
     {
@@ -64,6 +75,10 @@ ul{padding: 0;}
     .main-nav a
     {
         display: block;
+    }
+    .hide
+    {
+        display: none!important;
     }
 }
 /*---------------------------------------------------*/
