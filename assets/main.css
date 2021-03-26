@@ -80,6 +80,10 @@ ul{padding: 0;}
     {
         display: none!important;
     }
+    li
+    {
+    margin-bottom: 16px;
+    }
 }
 /*---------------------------------------------------*/
 .content li
