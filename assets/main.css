@@ -25,6 +25,13 @@ ul{padding: 0;}
     padding-right: 30px;
     padding-left: 30px;
 }
+/* Mob Side Nav */
+.sidenav {height: 100%;width: 0;position: fixed;z-index: 99;top: 0;left: 0;background-color: #000000;overflow-x: hidden;transition: 0.5s;padding-top: 60px;}
+.sidenav a {padding: 8px 8px 8px 32px;text-decoration: none;font-size: 25px;color: #818181;display: block;transition: 0.3s;}
+.sidenav a:hover {color: #f1f1f1;}
+.sidenav .closebtn {position: absolute;top: 0;right: 25px;font-size: 36px;margin-left: 50px;}
+.sidenav-back {height: 100%;width: 0;position: fixed;z-index: 90;top: 0;left: 0;background-color: black;overflow-x: hidden;transition: 0.3s;padding-top: 60px;opacity: 0.9;}
+
 /*---------------------------------------------------*/
 .header
 {
@@ -58,19 +65,17 @@ ul{padding: 0;}
 .menu-bttn
 {
     background-color:#800;
-     border-radius: 25px;
-     margin-top:16px;
-     margin-bottom:16px!important;
-
-     display: none;
+    display: none;
+    height: 50px;
+    font-size: 40px;
+    text-align: center;
+    cursor: pointer;
  }
 
 @media screen and (max-width: 700px) {
-    .main-nav
+    .menu-bttn
     {
-        border-top: 1px solid #fff;
-        float: none;
-        line-height: 48px;
+        display: block;
     }
     .main-nav a
     {
@@ -80,10 +85,7 @@ ul{padding: 0;}
     {
         display: none!important;
     }
-    li
-    {
-    margin-bottom: 16px;
-    }
+
 }
 /*---------------------------------------------------*/
 .content li
@@ -91,6 +93,7 @@ ul{padding: 0;}
     margin-left: 24px;
     list-style:square;
 }
+
 /*---------------------------------------------------*/
 .footer
 {

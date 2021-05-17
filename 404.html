@@ -40,24 +40,34 @@
 
     <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="assets/main.css?v=1">
-    <script src="assets/script.js"></script>
+    <script defer="defer" src="assets/mobnav.js"></script>
 
 </head>
 
 <body>
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="https://rocsoc.org/">Home</a>
+        <a href="about">About Us</a>
+        <a href="news">News</a>
+        <a href="social">Social Media</a>
+        <a href="join">Join Us</a>
+    </div>
+    <div id="mySidenav-back" class="sidenav-back" href="javascript:void(0)" class="closebtn" onclick="closeNav()"></div>
+
     <div class="header">
         <div class="wrapper">
             <a href="https://rocsoc.org/"><img src="assets/logos/logofull.png" width="192"></a>
             <nav class="main-nav">
-                <a class="menu-bttn"onclick="menuFunc()" href="javascript:void(0);">Menu</a>
                 <div id="navlinks" class="hide">
-                <a href="about">About Us</a>
-                <a href="news">News</a>
-                <a href="social">Social Media</a>
-                <a class="joinus-bttn" href="join">Join Us</a>
-            </div>
+                    <a href="about">About Us</a>
+                    <a href="news">News</a>
+                    <a href="social">Social Media</a>
+                    <a class="joinus-bttn" href="join">Join Us</a>
+                </div>
             </nav>
         </div>
+        <div onclick="openNav()" class="menu-bttn"><a><i class='bx bx-menu'></i></a></div>
     </div>
     <div class="content">
         <div class="wrapper">

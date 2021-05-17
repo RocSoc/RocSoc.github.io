@@ -3,8 +3,8 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <!-- <base href="."> -->
-    <base href="https://rocsoc.org">
+    <base href=".">
+    <!-- <base href="https://rocsoc.org"> -->
 
     <title>RocSoc.org | News</title>
     <meta name="title" content="RocSoc.org | News">
@@ -40,30 +40,42 @@
 
     <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="assets/main.css?v=1">
-    <script src="assets/script.js"></script>
+    <script defer="defer" src="assets/mobnav.js"></script>
 
 </head>
 
 <body>
     <div id="fb-root"></div>
     <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v9.0"nonce="RqI3Nhz1"></script>
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="https://rocsoc.org/">Home</a>
+        <a href="about">About Us</a>
+        <a href="news">News</a>
+        <a href="social">Social Media</a>
+        <a href="join">Join Us</a>
+    </div>
+    <div id="mySidenav-back" class="sidenav-back" href="javascript:void(0)" class="closebtn" onclick="closeNav()"></div>
+
     <div class="header">
         <div class="wrapper">
             <a href="https://rocsoc.org/"><img src="assets/logos/logofull.png" width="192"></a>
             <nav class="main-nav">
-                <a class="menu-bttn"onclick="menuFunc()" href="javascript:void(0);">Menu</a>
                 <div id="navlinks" class="hide">
-                <a href="about">About Us</a>
-                <a href="news">News</a>
-                <a href="social">Social Media</a>
-                <a class="joinus-bttn" href="join">Join Us</a>
-            </div>
+                    <a href="about">About Us</a>
+                    <a href="news">News</a>
+                    <a href="social">Social Media</a>
+                    <a class="joinus-bttn" href="join">Join Us</a>
+                </div>
             </nav>
         </div>
+        <div onclick="openNav()" class="menu-bttn"><a><i class='bx bx-menu'></i></a></div>
     </div>
+
     <div class="content">
         <div class="wrapper">
-            <h1>Social Media</h1>
+            <h1>Newsfeed: Facebook</h1>
+            <p>If facebook newsfeed fails to load <a href="https://www.facebook.com/LURocSoc/">click here</a></p>
             <div class="fb-page" data-href="https://www.facebook.com/LURocSoc/" data-tabs="timeline, events" data-width="500" data-height="800" data-small-header="true" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="false"><blockquote cite="https://www.facebook.com/LURocSoc/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/LURocSoc/">RocSoc</a></blockquote></div>
         </div>
     </div>
